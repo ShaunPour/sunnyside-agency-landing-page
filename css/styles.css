@@ -1,0 +1,92 @@
+header {
+    position: absolute;
+    z-index: 3000;
+}
+
+#mobile-header-upper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2000;
+}
+
+.mobile-header-lower {
+    position: absolute;
+    top: 65vh;
+    left: 0;
+    width: 100%;
+    z-index: 2000;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile-menu-control {
+    position: absolute;
+    left: 87vw;
+}
+
+.title {
+    color: #FFF;
+    text-align: center;
+    font-family: "Fraunces 9pt Soft";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 6.25px;
+    text-transform: uppercase;
+    z-index: 5000;
+    position: relative;
+    top: 10vh;
+    }
+
+    .mobile-menu {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        right: 5vw;
+        bottom: 40vh;
+        width: 80vw;
+        height: 305px;
+        display: none;
+    }
+
+    header svg {
+        display: none;
+    }
+
+    .mobile-menu-itm {
+        color: #808397;
+        font-family: Barlow;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: -0.143px;
+        margin-bottom: 1em;
+    }
+
+    .contact-btn {
+        width: 140px;
+        height: 56px;
+        flex-shrink: 0;
+        border-radius: 28px;
+        border: none;
+        background: #FBD600;
+        color: #24303E;
+        font-family: "Fraunces 9pt Soft";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px;
+        letter-spacing: -0.107px;
+        text-transform: uppercase;
+    }
