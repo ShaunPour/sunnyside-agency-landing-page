@@ -90,3 +90,60 @@ header {
         letter-spacing: -0.107px;
         text-transform: uppercase;
     }
+
+    .arrow-mobile {
+        position: absolute;
+        top: 35vh;
+        left: 44vw;
+        z-index: 9000;
+    }
+
+    .middle,.middle-top {
+        position: absolute;
+        top: 105vh;
+        z-index: 5000;
+        flex-direction: column;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .middle-title,.middle-btn {
+        color: #24303E;
+    }
+
+    .middle-txt, .middle-btn {
+        font-size: 18px;
+    }
+
+    .middle-title {
+        width: 55%;
+        font-size: 26px;
+    }
+
+    .middle-txt {
+        color: #808397;  
+        width: 75%;
+    }
+
+    .middle-btn {
+        background: transparent;
+        border: none;
+        border-bottom: 3px solid #FAD400;
+        font-weight: bold;
+    }
+
+    .standout {
+        position: absolute;
+        width: 100vw;
+        left: 0;
+        top: 310vw;
+        z-index: 5000;
+    }
+
+    /* .middle-2-txt {
+        position: absolute;
+        top: 190vh;
+        z-index: 5000;
+    } */
