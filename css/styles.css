@@ -13,7 +13,7 @@ header {
 
 .mobile-header-lower {
     position: absolute;
-    top: 65vh;
+    top: 68.5vh;
     left: 0;
     width: 100%;
     z-index: 2000;
@@ -129,6 +129,8 @@ header {
     }
 
     .middle-title {
+        margin-top: 1.75rem;
+        margin-bottom: 0;
         width: 55%;
         font-size: 26px;
     }
@@ -149,7 +151,7 @@ header {
         position: absolute;
         width: 100.5vw;
         left: -10px;
-        top: -90vw;
+        top: -85vw;
         z-index: 5000;
     }
 
@@ -157,8 +159,20 @@ header {
         top: 242.3vh;
     }
 
-    /* .middle-2-txt {
-        position: absolute;
-        top: 190vh;
-        z-index: 5000;
-    } */
+    @media (min-width: 23rem) {
+        .mobile-header-lower {
+            top: 33.5rem;
+        }
+
+        .middle {
+            top: 53rem;
+        }
+
+        /* .standout {
+            top: -43vw;
+        } */
+
+        .middle-2 {
+            top: 200vh;
+        }
+    }
